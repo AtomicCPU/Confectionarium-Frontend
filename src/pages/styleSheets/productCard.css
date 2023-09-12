@@ -1,0 +1,19 @@
+.paddingCards {
+   display: block;
+   padding-left: 14%;
+   padding-right: 14%;
+   padding-top: 1.4rem;
+   background-color: transparent;
+   box-shadow: 4px, 10px, rgb(255, 72, 72);
+}
+
+.overhead {
+   padding-left: 14%;
+   padding-top: 2rem;
+}
+
+.cardStyle {
+   width: 16rem;
+   height: 20rem;
+   float: left;
+}

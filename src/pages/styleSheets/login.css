@@ -1,11 +1,33 @@
-.login-card {
-    width: '60%'; 
-    margin: '2rem 2rem auto' 
+.loginCard {
+   width: 30%;
+   margin: 2rem auto;
 }
 
 @media only screen and (max-width: 600px) {
-   .login-card {
-      width: 'auto';    
-      margin: '2rem 2rem auto';
+   .loginCard {
+      width: auto;
+      margin: 2rem 2rem auto;
    }
+}
+
+.loginButton {
+   width: 30%;
+   background-color: rgb(255, 229, 137);
+   color: black;
+}
+
+/* .loginButton:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+.loginButton:after {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+} */
+.loginBorder {
+   display: block;
+   align-content: center;
+   background-color: rgb(157, 254, 254);
+   display: flex;
+   justify-content: center;
 }

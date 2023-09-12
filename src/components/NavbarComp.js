@@ -6,6 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import './styleSheets/navbarComp.css';
 
 export const NavbarComp = ({ loggedIn }) => {
   return (
@@ -46,6 +47,8 @@ export const NavbarComp = ({ loggedIn }) => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+      
+      <div class="decorativeBar"></div>
       <Outlet />
     </>
   );

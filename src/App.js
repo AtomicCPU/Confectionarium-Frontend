@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavbarComp } from './components/NavbarComp';
+import { NavbarComp } from './components/navbarComp';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './pages/styleSheets/login.css';
